@@ -10,10 +10,10 @@ int add_int(int a, int b) {
 
 int add_float_ref(float *a, float *b, float *c) {
   *c = *a + *b;
-  return 0;
+  return *c;
 }
 
 int add_int_ref(int *a, int *b, int *c) {
   *c = *a + *b;
-  return 0;
+  return *c;
 }
